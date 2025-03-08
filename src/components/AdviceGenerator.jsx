@@ -55,7 +55,7 @@ export default function AdviceGenerator() {
       />
 
       <button
-        className={`bg-green-300 rounded-full absolute -bottom-9 hover:bg-green-400 ease-in-out ${isFetching? "cursor-not-allowed opacity-50" : ""}`}
+        className={`bg-green-300 rounded-full absolute -bottom-9 hover:bg-green-400 ease-in-out ${isFetching? "cursor-not-allowed bg-green-100" : ""}`}
         onClick={fetchAdvice}
         disabled={isFetching}
       >
